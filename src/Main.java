@@ -5,6 +5,10 @@ public class Main {
         Scanner scn = new Scanner(System.in);
         int a = scn.nextInt();
         int b = scn.nextInt();
-        System.out.println(a+b);
+        int input = 0;
+        switch (input){
+            case 1->System.out.println(a+b);
+            case 2->System.out.println(a-b);
+        }
     }
 }
